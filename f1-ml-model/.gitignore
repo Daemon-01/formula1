@@ -153,6 +153,20 @@ ENV/
 env.bak/
 venv.bak/
 
+# Machine Learning Models (Large binary files)
+models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.pkl.gz
+
+# Model checkpoints
+models/checkpoints/
+models/weights/
+
+# Data (already partially covered above)
+data/raw/
+data/interim/
+
 # Spyder project settings
 .spyderproject
 .spyproject
